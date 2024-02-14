@@ -1,0 +1,86 @@
+.dashbody{
+    display: flex;
+    flex-direction: row;
+    height:103vh;
+    justify-content:flex-start;
+    font-family: 'Neto Sans','Sans Serif';
+    background-color:#fff;
+}
+
+.left-dash{
+    padding: 10px;
+    max-height: 100%;
+    width: 20%;
+    background-color: #00A064;
+}
+.left-dash h4{
+    padding:10px;
+    text-align: center;
+    color:black;
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+}
+#sidebar button{
+    background-color: rgb(251, 251, 251);
+    color:rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0.5rem 1.2rem;
+}
+#sidebar button:hover{
+    background-color:#87e9a9;
+}
+.mid-dash{
+    /* background-color: blue; */
+    width: 80%;
+        background-image: url('../../Assets/bg-10.jpg'); 
+        background-size: cover;
+        background-position: center; 
+        
+      
+}
+.right-dash button{
+    background-color: black;
+    padding: 1rem;
+    border-style: groove;
+    border:1px solid grey ;
+}
+.right-dash button:hover{
+    background-color: rgb(37, 36, 41);
+}
+.card{
+    margin:30px 60px 15px 50px;
+    height:50vh;
+    width: 70vw;
+    border: 0px;
+    background-color: #0000002b;
+}
+.right-dash{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.right-dash button {
+    height: 1rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.profile-image img {
+    width: 150px;
+    height: 150px; 
+}
+
+.chart-tooltip {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+.mychart {
+    height: 40vh;
+    padding:20px;
+}
